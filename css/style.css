@@ -1,0 +1,131 @@
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #F3F2EA;
+}
+
+.banner {
+    background-image: url('.../images/Projects/hero.png');
+    background-size: cover;
+}
+
+.hero_img {
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #001025;
+}
+
+.name {
+    color:white;
+    letter-spacing: 0.2rem;
+    padding-left: 1rem; 
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    text-align: center !important;
+    padding-right: 1rem;
+}
+
+.nav-item {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.card {
+    width: 21.5em;
+    margin:0 auto;
+    border: 0px;
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
+}
+.row {
+    justify-content: center;
+    padding: 5rem;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+h4 {
+    text-align: right;
+    margin: 4rem;
+}
+
+h2 {
+    position: absolute;
+    width: 42%;
+    top: 70%;
+    left: 100px;
+    text-align: left;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: .25em;
+
+}
+
+@media only screen and (max-width: 1220px) {
+    h2 {
+        position: absolute;
+        width: 60%;
+        top: 60%;
+        left: 100px;
+        text-align: left;
+        margin-bottom: .5rem;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: .25em;
+        font-size: 1.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 1006px) {
+    h2 {
+        position: absolute;
+        width: 60%;
+        top: 55%;
+        left: 100px;
+        text-align: left;
+        margin-bottom: .5rem;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: .25em;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 880px) {
+    h2 {
+        position: absolute;
+        width: 70%;
+        top: 45%;
+        left: 100px;
+        text-align: left;
+        margin-bottom: .5rem;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: .25em;
+        font-size: 1.5rem;
+    }
+}
